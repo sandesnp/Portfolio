@@ -1,0 +1,54 @@
+.testimonial {
+  height: 30rem;
+  /* padding-top: -1rem; */
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+  padding-top: 7rem;
+  position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial__image {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  outline: 10px solid white !important;
+  width: 10rem !important;
+  height: 10rem !important;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.testimonial__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial__description {
+  position: relative;
+  margin: 1rem 0; /* space above/below as needed */
+  padding: 0 1rem; /* give your text a bit of inner padding */
+  margin-left: 3rem; /* leave room for the opening quote */
+  margin-right: 3rem; /* leave room for the closing quote */
+}
+
+.testimonial__description::before,
+.testimonial__description::after {
+  position: absolute;
+  font-size: 4rem;
+  line-height: 1; /* box height = font size */
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.testimonial__description::before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+
+.testimonial__description::after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}

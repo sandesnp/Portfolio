@@ -68,7 +68,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-size: 1.6rem;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 h1,
@@ -79,4 +79,15 @@ h4 {
 }
 p {
   margin: 0;
+}
+
+.app > * {
+  height: 100lvh;
+  overflow: hidden;
+  border-bottom: 1px dotted black;
+}
+
+.row {
+  /* --bs-gutter-x: 0 !important; */
+  padding: 0;
 }

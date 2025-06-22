@@ -1,0 +1,39 @@
+.skills__content-header * div.progress {
+  height: 0.5rem;
+  width: 40%;
+}
+.progress {
+  overflow: visible !important;
+}
+.skills__content .progress-bar {
+  position: relative;
+  overflow: visible !important;
+  border-radius: 1rem;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.1) 0,
+    rgba(0, 0, 0, 0.1) 4px,
+    rgba(0, 0, 0, 1) 4px,
+    rgba(0, 0, 0, 1) 8px
+  );
+}
+.skills__content .progress-bar::before {
+  content: '';
+  position: absolute;
+  right: -0.1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--bs-dark);
+}
+
+.skills__content-header .progress-bar {
+  /* Bootstrap’s own --bs-danger color */
+  /* background-color: var(--bs-danger) !important; */
+}
+
+.skills__content-header .progress-bar::before {
+  display: none;
+}
