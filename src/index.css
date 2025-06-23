@@ -82,9 +82,10 @@ p {
 }
 
 .app > * {
-  height: 100lvh;
+  height: var(--full-vh);
   overflow: hidden;
-  border-bottom: 1px dotted black;
+  padding: 2rem 5rem;
+  /* border-bottom: 1px dotted black; */
 }
 
 .row {

@@ -6,8 +6,8 @@ import './works.css';
 
 export default function Works() {
   return (
-    <section className='works d-flex flex-column text-center gap-5 py-5'>
-      <div className='works__heading d-flex flex-column gap-3'>
+    <section className='works d-flex flex-column gap-5'>
+      <div className='works__heading d-flex flex-column gap-3 text-center'>
         <div className='works__heading-title'>
           <h1 style={{ fontSize: '4rem', fontWeight: 400 }}>MY WORKS</h1>
         </div>
@@ -20,18 +20,16 @@ export default function Works() {
           </p>
         </div>
       </div>
-      <div className='works__content'>
+
+      <div className='works__content flex-grow-1'>
         <Swiper
-          className='my-swiper'
+          className='my-swiper h-100'
           modules={[Navigation]}
           spaceBetween={30}
           slidesPerView={3}
           navigation
           onSwiper={(swiper) => console.log(swiper)}
         >
-          <SwiperSlide>
-            <img src='https://res2.weblium.site/site/5ecffebf00294a002239076c/preview' />
-          </SwiperSlide>
           <SwiperSlide>
             <img src='https://cdn.prod.website-files.com/5e593fb060cf877cf875dd1f/68505dfd9a5cb5b20e64fd8c_30998d38-fe3f-466a-a8f6-32f37b36c3c1.webp' />
           </SwiperSlide>

@@ -1,3 +1,4 @@
+import Contact from './sections/Contact';
 import Hero from './sections/Hero';
 import Skills from './sections/Skills';
 import Testinomnials from './sections/Testinomnials';
@@ -8,10 +9,9 @@ function App() {
     <div className='app d-flex flex-column'>
       <Hero />
       <Works />
-      <section className='section section--skills-testimonials'>
-        <Skills />
-        <Testinomnials />
-      </section>
+      <Skills />
+      <Testinomnials />
+      <Contact />
     </div>
   );
 }

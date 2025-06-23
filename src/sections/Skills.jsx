@@ -3,20 +3,21 @@ import './skills.css';
 export default function Skills() {
   const skills = [
     { title: 'HTML', progress: 100 },
-    { title: 'CSS', progress: 95 },
-    { title: 'JAVASCRIPT', progress: 90 },
-    { title: 'FIGMA', progress: 70 },
+    { title: 'CSS', progress: 100 },
+    { title: 'JAVASCRIPT', progress: 97 },
+    { title: 'PYTHON', progress: 80 },
+    { title: 'PHP', progress: 85 },
+    { title: 'FIGMA', progress: 90 },
     { title: 'TYPESCRIPT', progress: 80 },
     { title: 'REACT', progress: 85 },
     { title: 'NODEJS', progress: 90 },
+    { title: 'LARAVEL', progress: 90 },
     { title: 'MONGODB', progress: 75 },
+    { title: 'ANIMEJS', progress: 95 },
   ];
 
   return (
-    <section
-      className='skills  d-flex flex-column text-center pt-5'
-      style={{ gap: '5rem', height: '50%' }}
-    >
+    <section className='skills  d-flex flex-column text-center pt-5' style={{ gap: '5rem' }}>
       <div className='skills__heading d-flex flex-column gap-3'>
         <div className='skills__title'>
           <h1 style={{ fontSize: '4rem', fontWeight: 400 }}>MY SKILLS</h1>

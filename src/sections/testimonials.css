@@ -36,9 +36,9 @@
 .testimonial__description::before,
 .testimonial__description::after {
   position: absolute;
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 1; /* box height = font size */
-  color: rgba(0, 0, 0, 0.2);
+  color: black;
 }
 
 .testimonial__description::before {
@@ -49,6 +49,6 @@
 
 .testimonial__description::after {
   content: '”';
-  bottom: 0;
+  bottom: -1rem;
   right: 0;
 }

@@ -3,8 +3,8 @@ import './testimonials.css';
 export default function Testinomnials() {
   return (
     <section
-      className='testimonials d-flex flex-column align-items-center text-center py-5'
-      style={{ gap: '7rem', height: '50%' }}
+      className='testimonials d-flex flex-column align-items-center text-center'
+      style={{ gap: '16rem' }}
     >
       <div className='testimonials__heading d-flex flex-column gap-3'>
         <div className='testimonials__title'>
@@ -30,9 +30,9 @@ export default function Testinomnials() {
               doloremque eaque ad eos nobis aspernatur voluptatibus quod non. Lorem ipsum dolor sit
               amet consectetur adipisicing elit. Voluptates, doloremque?
             </p>
-            <div className='testimonial__footer d-flex justify-content-between'>
-              <div className='testimonial__name'>Jackie Fan</div>
-              <div className='testimonial__role'>Martial Artist</div>
+            <div className='testimonial__footer d-flex justify-content-center align-items-end lh-1 gap-5'>
+              <span className='testimonial__name fs-2 fw-bolder'>Jackie Fan</span>
+              <span className='testimonial__role fs-4 '>Martial Artist</span>
             </div>
           </div>
         </div>
@@ -46,9 +46,9 @@ export default function Testinomnials() {
               doloremque eaque ad eos nobis aspernatur voluptatibus quod non. Lorem ipsum dolor sit
               amet consectetur adipisicing elit. Voluptates, doloremque?
             </p>
-            <div className='testimonial__footer d-flex justify-content-between'>
-              <div className='testimonial__name'>Jackie Fan</div>
-              <div className='testimonial__role'>Martial Artist</div>
+            <div className='testimonial__footer d-flex justify-content-center align-items-end lh-1 gap-5'>
+              <span className='testimonial__name fs-2 fw-bolder'>Jackie Fan</span>
+              <span className='testimonial__role fs-4 '>Martial Artist</span>
             </div>
           </div>
         </div>
@@ -62,9 +62,9 @@ export default function Testinomnials() {
               doloremque eaque ad eos nobis aspernatur voluptatibus quod non. Lorem ipsum dolor sit
               amet consectetur adipisicing elit. Voluptates, doloremque?
             </p>
-            <div className='testimonial__footer d-flex justify-content-between'>
-              <div className='testimonial__name'>Jackie Fan</div>
-              <div className='testimonial__role'>Martial Artist</div>
+            <div className='testimonial__footer d-flex justify-content-center align-items-end lh-1 gap-5'>
+              <span className='testimonial__name fs-2 fw-bolder'>Jackie Fan</span>
+              <span className='testimonial__role fs-4 '>Martial Artist</span>
             </div>
           </div>
         </div>

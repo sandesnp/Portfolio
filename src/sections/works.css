@@ -1,10 +1,16 @@
-#root > div > section.works.d-flex.flex-column.text-center.gap-5.py-5 > div.works__content > div {
-  overflow: visible;
+.works__heading {
+  /* flex: 3; */
+  /* height: 100%; */
+}
+.works__content {
+  min-height: 0;
 }
 
+.swiper {
+  overflow: visible;
+}
 .swiper-slide {
   border-radius: 1% 1%;
-  height: 70rem;
   overflow: hidden;
 }
 
